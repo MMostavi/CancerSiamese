@@ -11,6 +11,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5995337/
 
 ## Key contributions
 - To the best of our knowledge, this is the only model that considers only one gene expression sample for classifying primary or metastatic tumors.
+- Predicting unseen cancer types, meaning that training and testing classes are completely different(disjoint sets).
 - Analyzing primary and metastatic tumors in parallel 
 - Extracting common cancer markers represented among primary and metastatic tumors with their corresponding functions. 
 
