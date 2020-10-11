@@ -2,4 +2,4 @@
  Codes for CancerSiamese paper
 
 
-[Fig3_rev2.pdf](https://github.com/MMostavi/CancerSiamese/files/5360486/Fig3_rev2.pdf)
+![image](https://user-images.githubusercontent.com/22861849/95668520-bc4b6b00-0b3a-11eb-865f-52714854acb4.png)
