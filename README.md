@@ -1,7 +1,7 @@
 # CancerSiamese
 ## Codes for CancerSiamese paper
 
-In this repo, you find codes for CancerSiamese, a one shot learning approach for classifying primary and metastatic tumors with only one sample. The primary and metastatic samples are obtained from TCGA and MET500 datasets, respectively. 
+In this repo, you find codes for [CancerSiamese](https://www.biorxiv.org/content/10.1101/2020.09.07.286583v1), a one shot learning approach for classifying primary and metastatic tumors with only one sample. The primary and metastatic samples are obtained from TCGA and MET500 datasets, respectively. 
 
 Link to TCGA:
 https://portal.gdc.cancer.gov/
