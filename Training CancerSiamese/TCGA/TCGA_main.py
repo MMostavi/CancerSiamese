@@ -53,9 +53,6 @@ def get_batch(batch_size,md='train'):
     # randomly sample several classes to use in the batch
     categories = random.sample(set(y_train), No_train_class)  ## scratch
 
-    # only_prim = set(y_train).intersection(prim_set)  ## transfer
-    # categories = random.sample(only_prim, len(only_prim))  ## transfer
-
     pairs = [np.zeros((batch_size, genes_len, 1)) for i in range(2)]
     targets = np.zeros((batch_size,))
 
@@ -71,11 +68,6 @@ def get_batch(batch_size,md='train'):
             idx_2 = random.sample(class_train_ind[category_2], 1)[0]
             pairs[1][i, :, :] = x_train.values[idx_2].reshape(genes_len, 1)
 
-
-        # elif md=='train' and (category in prim_set):
-        #     category_2 = category
-        #     idx_2 = random.sample(class_train_ind_prim[category_2], 1)[0]
-        #     pairs[1][i, :, :] = prim_TCGA.values[idx_2].reshape(genes_len, 1)
         else:
             ind_pop = list(categories).index(category)
             copy_list = categories.copy()
